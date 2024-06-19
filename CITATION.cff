@@ -1,0 +1,41 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: RAG Fundamentals and Semantic Chunking
+message: >-
+  If you reference this repository, please cite it as
+  indicated.
+type: software
+authors:
+  - given-names: Dalmo
+    family-names: Cirne
+    orcid: 'https://orcid.org/0009-0005-6354-0041'
+repository-code: 'https://github.com/dcirne/rag_fundamentals'
+repository: 'https://dalmocirne.com'
+abstract: >-
+  The material in this repository was initially prepared for
+  a lecture I gave at The 2024 IARIA Annual Congress on
+  Frontiers in Science, Technology, Services, and
+  Applications, on the topics of Retrieval-Augmented
+  Generation (RAG) and Semantic Chunking.
+
+
+  RAG is a technique used to optimize the output of a Large
+  Language Model (LLM). The expectation is that In-Context
+  Learning (ICL) takes place, leading the LLM to produce
+  better results.
+
+
+  RAG can be more effective when semantic chunking is used.
+  The basic idea is to retrieve and compile small "chunks"
+  of data to augment the prompt to be sent to an LLM, rather
+  than inserting entire documents that contain the topic of
+  interest, but also information that is not relevant to the
+  user interaction.
+keywords:
+  - rag
+  - semantic-chunking
+license: Apache-2.0
+version: 1.0.0
+date-released: '2024-06-18'
